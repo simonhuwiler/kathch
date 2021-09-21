@@ -5,7 +5,7 @@ How does the catholic media portal kath.ch work on daily bases? A quantitative a
 ```
 pip venv env
 env\Scripts\activate #or source env/bin/activate on mac
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 ## Scrape data
 Run `src/1_daily.py` as you wish (daily). It will push new articles into the git repo. You need to set up ssh keys on your server.
